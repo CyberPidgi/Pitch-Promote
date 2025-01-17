@@ -79,7 +79,7 @@ const page = async ({ params }: { params: Promise<{ id: string }> }) => {
           {parsedContent ? (
             <article
               dangerouslySetInnerHTML={{ __html: parsedContent }}
-              className='max-w-4xl font-work-sans break-all prose'
+              className='max-w-4xl font-work-sans prose'
             />
           ) : (
             <p className='no-result'>No details provided</p>

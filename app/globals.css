@@ -141,11 +141,11 @@
     }
 
     .startup-card_desc {
-        @apply font-normal text-[16px] line-clamp-2 my-3 text-black-100 break-all;
+        @apply font-normal text-[16px] line-clamp-2 my-3 text-black-100;
     }
 
     .startup-card_img {
-        @apply w-full h-[164px] rounded-[10px] object-cover;
+        @apply w-full h-1/2 rounded-[10px] object-cover;
     }
 
     .startup-card_btn {
